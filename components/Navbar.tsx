@@ -1,4 +1,4 @@
-import { BriefcaseBusiness, ChevronDown, Phone, Search } from 'lucide-react'
+import { BriefcaseBusiness, ChevronDown, Phone, Search,Menu } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 import US from 'country-flag-icons/react/3x2/US'
@@ -7,9 +7,9 @@ import IN from 'country-flag-icons/react/3x2/IN'
 const Navbar = () => {
   return (
     <div className=''>
-
-      <div className='bg-gray-100 flex px-36 py-5 justify-between text-gray-600 items-center'>
-        <nav className='flex gap-5 text-sm'>
+      <div className='bg-gray-100 flex px-5 py-3 md:px-36 md:py-5 justify-between text-gray-600 items-center'>
+        <Menu />
+        <nav className='gap-5 text-sm hidden md:flex'>
           <Link href='/'>Home</Link>
           <Link href='/'>Find a Job</Link>
           <Link href='/'>Employers</Link>
