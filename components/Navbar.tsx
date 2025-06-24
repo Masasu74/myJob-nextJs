@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className='bg-gray-100 flex px-5 py-3 xl:px-36 xl:py-5 justify-between text-gray-600 items-center'>
         <Menu onClick={menuToggle} className='block md:hidden hover:cursor-pointer'/>
          <div className={`gap-5 text-sm ${menuIsOpen?'flex':'hidden'} md:hidden absolute z-50 flex-col bg-gray-100 left-0 top-0 px-10 py-5 h-screen`}>
-          <X  onClick={menuToggle}/>
+          <X  onClick={menuToggle} className='hover:cursor-pointer'/>
           <nav className='flex flex-col gap-5'>
   <Link href='/'>Home</Link>
           <Link href='/'>Find a Job</Link>

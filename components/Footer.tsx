@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='bg-gray-950 text-white flex flex-col gap-5  w-full '>
-      <div className='flex justify-between w-full px-36 py-10'>
+      <div className='flex justify-between w-full px-5 py-3 xl:px-36 xl:py-5 flex-col lg:flex-row gap-5 lg:gap-0'>
  <div className='flex flex-col gap-5 items-start'>
         <div className='flex items-center justify-center gap-2'>
           <BriefcaseBusiness className='text-white' />
@@ -18,7 +18,7 @@ const Footer = () => {
      
       </div>
 
-      <div className=' flex gap-16'>
+      <div className=' flex gap-16 flex-wrap'>
         <div className='flex flex-col gap-5'>
           <h1 className='font-semibold'>Quick Link </h1>
           <ul className='text-sm text-gray-500  flex flex-col gap-3'>
@@ -58,7 +58,7 @@ const Footer = () => {
       </div>
       </div>
 <div className="bg-gray-600 h-[1px] w-full"></div>
-      <div className='flex justify-between px-36 pb-3 text-gray-500'>
+      <div className='flex flex-col gap-2 lg:flex-row justify-between px-5 xl:px-36  pb-3 text-gray-500'>
         <p>@ 2025 MyJob - Job Portal. All rights Reserved</p>
         <div className='flex gap-3 '>
           <Facebook width='15px' />
