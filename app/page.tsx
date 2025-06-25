@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-
+<>
     <div className="px-5 py-3 xl:px-36 xl:py-5 bg-gray-100  gap-16 flex flex-col">
 
       <div className="flex justify-between gap-16">
@@ -69,6 +69,66 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      
+  
     </div>
+
+    <div className="bg-white px-5 py-6 xl:px-36 xl:py-20 gap-16 flex flex-col ">
+      <div>
+        <h1 className="text-4xl font-semibold">Most Popular Vacancies</h1>
+      </div>
+      <div className="flex flex-wrap gap-10">
+        <div className="flex flex-col gap-2  w-40 lg:w-52  hover:text-blue-500 hover:text-decoration:underline hover:cursor-pointer group">
+          <p className="text-md group-hover:text-decoration:underline">Anesthesiologists</p>
+          <p className="text-sm text-gray-300 ">45,904 Open Positions</p>
+        </div>
+          <div className="flex flex-col gap-2  w-40 lg:w-52  hover:text-blue-500 hover:text-decoration:underline hover:cursor-pointer group">
+          <p className="text-md group-hover:text-decoration:underline">Anesthesiologists</p>
+          <p className="text-sm text-gray-300 ">45,904 Open Positions</p>
+        </div>
+          <div className="flex flex-col gap-2  w-40 lg:w-52  hover:text-blue-500 hover:text-decoration:underline hover:cursor-pointer group">
+          <p className="text-md group-hover:text-decoration:underline">Anesthesiologists</p>
+          <p className="text-sm text-gray-300 ">45,904 Open Positions</p>
+        </div>
+          <div className="flex flex-col gap-2  w-40 lg:w-52  hover:text-blue-500 hover:text-decoration:underline hover:cursor-pointer group">
+          <p className="text-md group-hover:text-decoration:underline">Anesthesiologists</p>
+          <p className="text-sm text-gray-300 ">45,904 Open Positions</p>
+        </div>
+          <div className="flex flex-col gap-2  w-40 lg:w-52  hover:text-blue-500 hover:text-decoration:underline hover:cursor-pointer group">
+          <p className="text-md group-hover:text-decoration:underline">Anesthesiologists</p>
+          <p className="text-sm text-gray-300 ">45,904 Open Positions</p>
+        </div>
+          <div className="flex flex-col gap-2  w-40 lg:w-52  hover:text-blue-500 hover:text-decoration:underline hover:cursor-pointer group">
+          <p className="text-md group-hover:text-decoration:underline">Anesthesiologists</p>
+          <p className="text-sm text-gray-300 ">45,904 Open Positions</p>
+        </div>
+          <div className="flex flex-col gap-2  w-40 lg:w-52  hover:text-blue-500 hover:text-decoration:underline hover:cursor-pointer group">
+          <p className="text-md group-hover:text-decoration:underline">Anesthesiologists</p>
+          <p className="text-sm text-gray-300 ">45,904 Open Positions</p>
+        </div>
+          <div className="flex flex-col gap-2  w-40 lg:w-52  hover:text-blue-500 hover:text-decoration:underline hover:cursor-pointer group">
+          <p className="text-md group-hover:text-decoration:underline">Anesthesiologists</p>
+          <p className="text-sm text-gray-300 ">45,904 Open Positions</p>
+        </div>
+          <div className="flex flex-col gap-2  w-40 lg:w-52  hover:text-blue-500 hover:text-decoration:underline hover:cursor-pointer group">
+          <p className="text-md group-hover:text-decoration:underline">Anesthesiologists</p>
+          <p className="text-sm text-gray-300 ">45,904 Open Positions</p>
+        </div>
+          <div className="flex flex-col gap-2  w-40 lg:w-52  hover:text-blue-500 hover:text-decoration:underline hover:cursor-pointer group">
+          <p className="text-md group-hover:text-decoration:underline">Anesthesiologists</p>
+          <p className="text-sm text-gray-300 ">45,904 Open Positions</p>
+        </div>
+          <div className="flex flex-col gap-2  w-40 lg:w-52  hover:text-blue-500 hover:text-decoration:underline hover:cursor-pointer group">
+          <p className="text-md group-hover:text-decoration:underline">Anesthesiologists</p>
+          <p className="text-sm text-gray-300 ">45,904 Open Positions</p>
+        </div>
+          <div className="flex flex-col gap-2  w-40 lg:w-52  hover:text-blue-500 hover:text-decoration:underline hover:cursor-pointer group">
+          <p className="text-md group-hover:text-decoration:underline">Anesthesiologists</p>
+          <p className="text-sm text-gray-300 ">45,904 Open Positions</p>
+        </div>
+      </div>
+    </div>
+    </>
   );
 }
