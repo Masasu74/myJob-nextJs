@@ -1,4 +1,4 @@
-import { ArrowRight, Bookmark, Briefcase, Building2, Calendar, DollarSign, MapPin, MonitorCog, Search, Users } from "lucide-react";
+import { ArrowLeft, ArrowRight, Bookmark, Briefcase, Building2, Calendar, DollarSign, MapPin, MonitorCog, Search, Users } from "lucide-react";
 import Image from "next/image";
 import { SiUpwork, SiDribbble, SiFiverr } from 'react-icons/si';
 
@@ -358,6 +358,171 @@ export default function Home() {
             </div>
           </div>
 
+        </div>
+      </div>
+
+      <div className="bg-white px-5 py-6 xl:px-36 xl:py-20 gap-16 flex flex-col ">
+        <div className="flex justify-between items-center">
+          <h1 className="text-4xl font-semibold">Top companies</h1>
+
+          <div className="flex gap-3">
+            <div className="p-3 bg-blue-50 rounded-sm cursor-pointer"><ArrowLeft className="text-blue-600" /></div>
+            <div className="p-3 bg-blue-50 rounded-sm cursor-pointer"><ArrowRight className="text-blue-600" /></div>
+          </div>
+        </div>
+
+        <div className="flex w-full justify-between gap-10  flex-wrap">
+          <div className="w-64 h-40 border border-gray-200 p-5 flex flex-col gap-5 rounded-md">
+            <div className="flex gap-3">
+
+              <div className="w-12 h-12 rounded-sm bg-pink-500 flex justify-center items-center">
+                <SiDribbble className="text-white w-full " />
+              </div>
+              <div className="flex flex-col">
+                <div className="flex gap-2">
+                  <p className="text-lg font-medium">Dribble</p>
+                  <p className="text-sm bg-red-50 p-1 px-3 text-red-500 rounded-2xl">Featured</p>
+
+                </div>
+                <div className="flex  items-center gap-1 text-gray-400 text-sm "><MapPin className="w-4" />United States</div>
+              </div>
+
+            </div>
+            <div className="flex items-center justify-center text-sm bg-blue-50 h-10 w-full text-blue-600 font-semibold  hover:cursor-pointer rounded-sm"><p>Open Position</p></div>
+          </div>
+          <div className="w-64 h-40 border border-gray-200 p-5 flex flex-col gap-5 rounded-md">
+            <div className="flex gap-3">
+
+              <div className="w-12 h-12 rounded-sm bg-pink-500 flex justify-center items-center">
+                <SiDribbble className="text-white w-full " />
+              </div>
+              <div className="flex flex-col">
+                <div className="flex gap-2">
+                  <p className="text-lg font-medium">Dribble</p>
+                  <p className="text-sm bg-red-50 p-1 px-3 text-red-500 rounded-2xl">Featured</p>
+
+                </div>
+                <div className="flex  items-center gap-1 text-gray-400 text-sm "><MapPin className="w-4" />United States</div>
+              </div>
+
+            </div>
+            <div className="flex items-center justify-center text-sm bg-blue-50 h-10 w-full text-blue-600 font-semibold  hover:cursor-pointer rounded-sm"><p>Open Position</p></div>
+          </div>
+          <div className="w-64 h-40 border border-gray-200 p-5 flex flex-col gap-5 rounded-md">
+            <div className="flex gap-3">
+
+              <div className="w-12 h-12 rounded-sm bg-pink-500 flex justify-center items-center">
+                <SiDribbble className="text-white w-full " />
+              </div>
+              <div className="flex flex-col">
+                <div className="flex gap-2">
+                  <p className="text-lg font-medium">Dribble</p>
+                  <p className="text-sm bg-red-50 p-1 px-3 text-red-500 rounded-2xl">Featured</p>
+
+                </div>
+                <div className="flex  items-center gap-1 text-gray-400 text-sm "><MapPin className="w-4" />United States</div>
+              </div>
+
+            </div>
+            <div className="flex items-center justify-center text-sm bg-blue-50 h-10 w-full text-blue-600 font-semibold  hover:cursor-pointer rounded-sm"><p>Open Position</p></div>
+          </div>
+          <div className="w-64 h-40 border border-gray-200 p-5 flex flex-col gap-5 rounded-md">
+            <div className="flex gap-3">
+
+              <div className="w-12 h-12 rounded-sm bg-pink-500 flex justify-center items-center">
+                <SiDribbble className="text-white w-full " />
+              </div>
+              <div className="flex flex-col">
+                <div className="flex gap-2">
+                  <p className="text-lg font-medium">Dribble</p>
+                  <p className="text-sm bg-red-50 p-1 px-3 text-red-500 rounded-2xl">Featured</p>
+
+                </div>
+                <div className="flex  items-center gap-1 text-gray-400 text-sm "><MapPin className="w-4" />United States</div>
+              </div>
+
+            </div>
+            <div className="flex items-center justify-center text-sm bg-blue-50 h-10 w-full text-blue-600 font-semibold  hover:cursor-pointer rounded-sm"><p>Open Position</p></div>
+          </div>
+          <div className="w-64 h-40 border border-gray-200 p-5 flex flex-col gap-5 rounded-md">
+            <div className="flex gap-3">
+
+              <div className="w-12 h-12 rounded-sm bg-pink-500 flex justify-center items-center">
+                <SiDribbble className="text-white w-full " />
+              </div>
+              <div className="flex flex-col">
+                <div className="flex gap-2">
+                  <p className="text-lg font-medium">Dribble</p>
+                  <p className="text-sm bg-red-50 p-1 px-3 text-red-500 rounded-2xl">Featured</p>
+
+                </div>
+                <div className="flex  items-center gap-1 text-gray-400 text-sm "><MapPin className="w-4" />United States</div>
+              </div>
+
+            </div>
+            <div className="flex items-center justify-center text-sm bg-blue-50 h-10 w-full text-blue-600 font-semibold  hover:cursor-pointer rounded-sm"><p>Open Position</p></div>
+          </div>
+          <div className="w-64 h-40 border border-gray-200 p-5 flex flex-col gap-5 rounded-md">
+            <div className="flex gap-3">
+
+              <div className="w-12 h-12 rounded-sm bg-pink-500 flex justify-center items-center">
+                <SiDribbble className="text-white w-full " />
+              </div>
+              <div className="flex flex-col">
+                <div className="flex gap-2">
+                  <p className="text-lg font-medium">Dribble</p>
+                  <p className="text-sm bg-red-50 p-1 px-3 text-red-500 rounded-2xl">Featured</p>
+
+                </div>
+                <div className="flex  items-center gap-1 text-gray-400 text-sm "><MapPin className="w-4" />United States</div>
+              </div>
+
+            </div>
+            <div className="flex items-center justify-center text-sm bg-blue-50 h-10 w-full text-blue-600 font-semibold  hover:cursor-pointer rounded-sm"><p>Open Position</p></div>
+          </div>
+          <div className="w-64 h-40 border border-gray-200 p-5 flex flex-col gap-5 rounded-md">
+            <div className="flex gap-3">
+
+              <div className="w-12 h-12 rounded-sm bg-pink-500 flex justify-center items-center">
+                <SiDribbble className="text-white w-full " />
+              </div>
+              <div className="flex flex-col">
+                <div className="flex gap-2">
+                  <p className="text-lg font-medium">Dribble</p>
+                  <p className="text-sm bg-red-50 p-1 px-3 text-red-500 rounded-2xl">Featured</p>
+
+                </div>
+                <div className="flex  items-center gap-1 text-gray-400 text-sm "><MapPin className="w-4" />United States</div>
+              </div>
+
+            </div>
+            <div className="flex items-center justify-center text-sm bg-blue-50 h-10 w-full text-blue-600 font-semibold  hover:cursor-pointer rounded-sm"><p>Open Position</p></div>
+          </div>
+          <div className="w-64 h-40 border border-gray-200 p-5 flex flex-col gap-5 rounded-md">
+            <div className="flex gap-3">
+
+              <div className="w-12 h-12 rounded-sm bg-pink-500 flex justify-center items-center">
+                <SiDribbble className="text-white w-full " />
+              </div>
+              <div className="flex flex-col">
+                <div className="flex gap-2">
+                  <p className="text-lg font-medium">Dribble</p>
+                  <p className="text-sm bg-red-50 p-1 px-3 text-red-500 rounded-2xl">Featured</p>
+
+                </div>
+                <div className="flex  items-center gap-1 text-gray-400 text-sm "><MapPin className="w-4" />United States</div>
+              </div>
+
+            </div>
+            <div className="flex items-center justify-center text-sm bg-blue-50 h-10 w-full text-blue-600 font-semibold  hover:cursor-pointer rounded-sm"><p>Open Position</p></div>
+          </div>
+
+        </div>
+      </div>
+
+        <div className="bg-gray-100 px-5 py-6 xl:px-36 xl:py-20 gap-16 flex flex-col ">
+        <div className="flex justify-center items-center">
+          <h1 className="text-4xl font-semibold">Clients Testimonial</h1>
         </div>
       </div>
     </>
